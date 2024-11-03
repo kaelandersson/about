@@ -44,23 +44,6 @@ header, section, footer {
     text-align: center; /* Left-align text for readability */
 }
 
-/* CV Box Styling */
-.cv-box {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: left; /* Keeps text inside CV box left-aligned for readability */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto; /* Center the CV box */
-}
-
-.cv-box p {
-    color: #555;
-}
-
 /* General Text Styles for Sections */
 h2 {
     color: #333; /* Change color for headings */
