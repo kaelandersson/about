@@ -1,0 +1,72 @@
+/* Full-Page Background Image */
+body {
+    background-image: url('images/max-bohme-yQzc3eJ5rSk-unsplash.jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main Content Container */
+.container {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Centers content text within the container */
+}
+
+/* Section Styles */
+header, section, footer {
+    margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px; /* Center the profile picture */
+    display: block;
+}
+
+/* About Me Text Styles */
+#about p {
+    max-width: 75ch; /* Limits line length for readability, 50 characters */
+    margin: 0 auto 15px; /* Centers the paragraph */
+    text-align: center; /* Left-align text for readability */
+}
+
+/* CV Box Styling */
+.cv-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left; /* Keeps text inside CV box left-aligned for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto; /* Center the CV box */
+}
+
+.cv-box p {
+    color: #555;
+}
+
+/* General Text Styles for Sections */
+h2 {
+    color: #333; /* Change color for headings */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
